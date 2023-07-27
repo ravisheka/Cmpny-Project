@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@0;1&family=Hi+Melody&family=Inter:wght@400;500;600&family=Josefin+Sans:wght@600;700&family=Klee+One:wght@600&family=Lato:wght@700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@500;600;700;800&family=Work+Sans:wght@300;400;600;900&display=swap');
+.about-edx .about-us-hero-container {
+    background-color: #00262b;
+    color: #e1dddb;
+    max-height: 380px;
+    overflow-y: hidden;
+    position: relative;
+}
+.flex-column {
+    flex-direction: column;
+}
+@media (min-width: 768px){
+.d-md-flex {
+    display: flex;
+}}
+.heading {
+   
+    color: #FFF;
+    text-shadow: 0px 4px 70px 0px rgba(189, 189, 189, 0.33);
+    font-family: "Inter";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.dis{
+    color: #fff; 
+    color: #FFF;
+text-align: justify;
+font-family: "Inter";
+font-size: 90px;
+font-style: normal;
+font-weight: 700;
+display: flex;
+width: 1035px;
+height: 209px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+line-height: 100px; /* 111.111% */
+
+}
+.emphasized{
+    color: #000;
+font-family: Inter;
+font-size: 90px;
+font-style: normal;
+font-weight: 700;
+line-height: 100px;
+}
+.text-white {
+    color: #fff;
+}
+.display-2 {
+    font-size: 4.875rem;
+}
+.display-1, .display-2 {
+    font-weight: 700;
+    line-height: 1;
+}
+.h1, h1 {
+    letter-spacing: -2%;
+    line-height: 2.75rem;
+}
+.h1, h1 {
+    font-size: 2.5rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #00262b;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+.about-edx .about-us-hero-container .text-block .color-emphasized {
+    color: #f0cc00;
+}
+.d-none {
+    display: none;
+}
+.about-edx .about-us-hero-container .image-block .hero-image {
+    height: 100%;
+    width: auto;
+}
+img {
+    max-width: 100%;
+}
+img, svg {
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
+.future{
+    color: #000;
+
+font-family: Klee One;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 100% */
+}
+.portfolio{
+    color: #FF3049;
+font-family: Klee One;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+ .priority{
+    color: #1D79C2;
+font-family: Klee One;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+ }
+ .student{
+   
+text-align: center;
+font-family:" Lato";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 136.364% */
+letter-spacing: 0.66px;
+
+color: #656565;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0.66px;
+ }
+
+  .Management{
+    width: 945px;
+
+text-align: center;
+font-family: Reggae One;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: 44px;
+ } 
+ .mission{
+    color: #1D79C2;
+
+font-family:" Inter";
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ }
+ .way{
+    color: #000;
+font-family:" Inter";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+ }
+ .dedication{
+    color: #656565;
+text-align: justify;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 136.364% */
+letter-spacing: 0.44px;
+width: 686px;
+ }
+ .vision{
+    color: #05B67A;
+    font-family: Inter;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+ .founder{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ }
+ .story{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+ .empower{
+  
+    width: 820px;
+    height: 200px;
+   
+   
+    flex-shrink: 0;
+    color: #656565;
+font-family: "Inter";
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-left: 3rem;
+padding-top: 3rem;
+padding-right: 3rem;
+
+ }
+
+ .excel{
+   
+    width: 820px;
+height: 330px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #FFF;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+margin-left: 26%;
+margin-top: 4rem;
+
+ }
