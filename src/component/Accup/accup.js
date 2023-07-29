@@ -12,7 +12,7 @@ function Accup() {
     <div className="homepage-data">
       <div>
         <div
-          className="header"
+          className="header zoom"
           style={{
             color: "#F00",
             fontFamily: "Eraser",
@@ -21,7 +21,7 @@ function Accup() {
             fontWeight: "400",
             lineHeight: "normal",
             textAlign: "center",
-           marginTop:"6rem",
+           marginTop:"9rem",
             display: "flex",
             alignItems:"center",
             justifyContent: "center",
@@ -31,7 +31,7 @@ function Accup() {
           <img src="hindi text.svg" alt="" />
         </div>
         <div
-          className="example"
+          className="example zoom"
           style={{
             color: "#F00",
             fontSize: "4xl sm:text-6xl md:text-7xl",
@@ -39,16 +39,16 @@ function Accup() {
             fontWeight: "400",
             lineHeight: "normal",
             textAlign: "center",
-            marginTop: "1rem",
+            marginTop: "2.5rem",
             display: "flex",
             justifyContent: "center",
            
           }}
         >
-          <img src="hunar.png" alt="" />
+          <img src="Group 162.svg" alt="" />
         </div>
       </div>
-      <div className="accup">
+      <div className="accup " style={{marginTop:"-5rem"}}>
         <img
           src="Group 62.png"
           alt="ravi"
@@ -57,10 +57,12 @@ function Accup() {
         <img
           src="ACCUP (1).svg"
           alt="acc"
-          className="mt-[-16rem]"
-          style={{height:"45rem",marginLeft:"11rem",}}
+          className="mt-[-10rem]"
+          style={{height:"52rem",marginLeft:"5.1rem",}}
         />
-        <div className="mt-[-27rem]">
+        <div className="mt-[-30rem] zoom" style={{width:" 192px",
+height:" 200px",
+flexShrink:" 0"}}>
           <img src="Group 61.png" alt="ravi" />
         </div>
       </div>

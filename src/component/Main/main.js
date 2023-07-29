@@ -7,13 +7,17 @@ function main() {
       <section
         id="feautredArticles"
         class="featured-atricles-section is-visible-viewport"
+        style={{ marginTop: "8rem" }}
       >
         <div
           class="container"
           style={{ backgroundColor: "rgba(217,217,217,0)" }}
         >
+          <div className="zoom">
+            <img src="Group 110.svg" alt="" style={{ marginLeft: "43rem",marginTop:"3rem" }} />
+          </div>
           <h2
-            class="section-heading"
+            class=""
             style={{
               color: " #000",
               textAlign: "center",
@@ -21,44 +25,31 @@ function main() {
               fontFamily: "Inter",
               fontSize: "30px",
               fontStyle: " normal",
-              fontWeight: " 700",
-              lineHeight: "113%",
-              width: "800px " /* 39px */,
-              marginTop: "8rem",
+              fontWeight: "900",
+              lineHeight: "130%",
+              width: "700px " /* 39px */,
+              marginTop: "4rem",
             }}
           >
             Discover all-encompassing learning programs & classes tailored for
             every students
           </h2>
-          <p
+          <h2
             style={{
-              marginLeft: "34.2rem",
+              textAlign: "center",
+              marginLeft: "24.8rem",
               color: "#656565",
               fontFamily: "Inter",
-              fontSize: "17px",
+              fontSize: "20px",
               fontStyle: " normal",
               fontWeight: " 500",
               lineHeight: "130%",
-              width: "600px ",
+              width: "670px ",
             }}
           >
             Embark on a journey of lifelong learning with India's finest
-          </p>
-          <span
-            style={{
-              marginLeft: "31rem",
-              color: "#656565",
-              fontFamily: "Inter",
-              fontSize: "18px",
-              fontStyle: " normal",
-              fontWeight: " 500",
-              lineHeight: "130%",
-              width: "647px ",
-            }}
-          >
-            {" "}
             educators, engaging video lessons, and personalized learning paths
-          </span>
+          </h2>
         </div>
         <div
           class="pb-40 marquee flex"
@@ -69,67 +60,7 @@ function main() {
               class="col-lg-5 col-md-12 col-sm-12 zoom"
               style={{ height: "359px", width: "606px" }}
             >
-              <div class="hideoverflow-image">
-                <img
-                  src="Rectangle 51.png"
-                  alt="featured-articles"
-                  class="card-image"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-            <div
-              style={{
-                marginTop: "1rem",
-                textAlign: "center",
-                color: "#656565",
-                fontFamily: "Inter",
-                fontSize: "110px",
-                fontStyle: " normal",
-                fontWeight: " 500",
-                lineHeight: " normal",
-                marginLeft: "5rem",
-              }}
-            >
-              <h6>DATA SCIENCE</h6>
-            </div>
-          </div>
-          <div class="featured-card">
-            <div
-              class="col-lg-5 col-md-12 col-sm-12 zoom"
-              style={{ height: "359px", width: "606px" }}
-            >
-              <div class="hideoverflow-image">
-                <img
-                  src="Rectangle 53.png"
-                  alt="featured-articles"
-                  class="card-image"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-            <div
-              style={{
-                marginTop: "1rem",
-                textAlign: "center",
-                color: "#656565",
-                fontFamily: "Inter",
-                fontSize: "110px",
-                fontStyle: " normal",
-                fontWeight: " 500",
-                lineHeight: " normal",
-                marginLeft: "5rem",
-              }}
-            >
-              <h6>FULL STACK DEVELOPMENT</h6>
-            </div>
-          </div>
-          <div class="featured-card">
-            <div
-              class="col-lg-5 col-md-12 col-sm-12 zoom"
-              style={{ height: "359px", width: "606px" }}
-            >
-              <div class="hideoverflow-image">
+              <div class="hideoverflow-image zoom">
                 <img
                   src="Rectangle 54.png"
                   alt="featured-articles"
@@ -138,20 +69,24 @@ function main() {
                 />
               </div>
             </div>
-            <div
-              style={{
-                marginTop: "1rem",
-                textAlign: "center",
-                color: "#656565",
-                fontFamily: "Inter",
-                fontSize: "110px",
-                fontStyle: " normal",
-                fontWeight: " 500",
-                lineHeight: " normal",
-                marginLeft: "10rem",
-              }}
-            >
-              <h6>CLASSES 6 - 1O</h6>
+            <div>
+              <h6
+                style={{
+                  marginTop: "1rem",
+                  textAlign: "center",
+                  color: "#656565",
+                  fontFamily: "Inter",
+                  fontSize: "28px",
+                  fontStyle: " normal",
+                  fontWeight: " 500",
+                  lineHeight: " normal",
+               
+                position:"absolute",
+                marginLeft:"13.6%"
+                }}
+              >
+                classes 6-10
+              </h6>
             </div>
           </div>
           <div class="featured-card">
@@ -168,20 +103,24 @@ function main() {
                 />
               </div>
             </div>
-            <div
-              style={{
-                marginTop: "1rem",
-                textAlign: "center",
-                color: "#656565",
-                fontFamily: "Inter",
-                fontSize: "110px",
-                fontStyle: " normal",
-                fontWeight: " 500",
-                lineHeight: " normal",
-                marginLeft: "10rem",
-              }}
-            >
-              <h6>Learn French</h6>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <h6
+                style={{
+                  marginTop: "1rem",
+                  textAlign: "center",
+                  color: "#656565",
+                  fontFamily: "Inter",
+                  fontSize: "28px",
+                  fontStyle: " normal",
+                  fontWeight: " 500",
+                  lineHeight: " normal",
+                     
+                position:"absolute",
+                marginLeft:"16.8%"
+                }}
+              >
+                Learn French
+              </h6>
             </div>
           </div>
           <div class="featured-card">
@@ -189,36 +128,7 @@ function main() {
               class="col-lg-5 col-md-12 col-sm-12 zoom"
               style={{ height: "359px", width: "606px" }}
             >
-              <div class="hideoverflow-image">
-                <img
-                  src="Rectangle 58.png"
-                  alt="featured-articles"
-                  class="card-image"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-            <div
-              style={{
-                marginTop: "1rem",
-                textAlign: "center",
-                color: "#656565",
-                fontFamily: "Inter",
-                fontSize: "110px",
-                fontStyle: " normal",
-                fontWeight: " 500",
-                lineHeight: " normal",
-              }}
-            >
-              <h6>Medical Coding</h6>
-            </div>
-          </div>
-          <div class="featured-card">
-            <div
-              class="col-lg-5 col-md-12 col-sm-12 zoom"
-              style={{ height: "359px", width: "606px" }}
-            >
-              <div class="hideoverflow-image">
+              <div class="hideoverflow-image zoom">
                 <img
                   src="Rectangle 55.png"
                   alt="featured-articles"
@@ -227,20 +137,24 @@ function main() {
                 />
               </div>
             </div>
-            <div
-              style={{
-                marginTop: "1rem",
-                textAlign: "center",
-                color: "#656565",
-                fontFamily: "Inter",
-                fontSize: "110px",
-                fontStyle: " normal",
-                fontWeight: " 500",
-                lineHeight: " normal",
-                marginLeft: "10rem",
-              }}
-            >
-              <h6>Personality Development</h6>
+            <div>
+              <h6
+                style={{
+                  marginTop: "1rem",
+                  textAlign: "center",
+                  color: "#656565",
+                  fontFamily: "Inter",
+                  fontSize: "28px",
+                  fontStyle: " normal",
+                  fontWeight: " 500",
+                  lineHeight: " normal",
+                position:"absolute",
+                marginLeft:"5rem",
+                  width: "500px",
+                }}
+              >
+                Personality Development
+              </h6>
             </div>
           </div>
           <div class="featured-card">
@@ -248,7 +162,7 @@ function main() {
               class="col-lg-5 col-md-12 col-sm-12 zoom"
               style={{ height: "359px", width: "606px" }}
             >
-              <div class="hideoverflow-image">
+              <div class="hideoverflow-image zoom">
                 <img
                   src="Rectangle 56.png"
                   alt="featured-articles"
@@ -257,27 +171,32 @@ function main() {
                 />
               </div>
             </div>
-            <div
-              style={{
-                marginTop: "1rem",
-                textAlign: "center",
-                color: "#656565",
-                fontFamily: "Inter",
-                fontSize: "110px",
-                fontStyle: " normal",
-                fontWeight: " 500",
-                lineHeight: " normal",
-              }}
-            >
-              <h6>HR Analytics</h6>
+            <div>
+              <h6
+                style={{
+                  marginTop: "1rem",
+                  textAlign: "center",
+                  color: "#656565",
+                  fontFamily: "Inter",
+                  fontSize: "28px",
+                  fontStyle: " normal",
+                  fontWeight: " 500",
+                  lineHeight: " normal",
+                position:"absolute",
+                marginLeft:"5.8%",
+                width:"500px"
+                }}
+              >
+                HR Analytics
+              </h6>
             </div>
           </div>
           <div class="featured-card">
             <div
-              class="featured-image-wrapper zoom"
+              class="col-lg-5 col-md-12 col-sm-12 zoom"
               style={{ height: "359px", width: "606px" }}
             >
-              <div class="hideoverflow-image">
+              <div class="hideoverflow-image zoom">
                 <img
                   src="Rectangle 57.png"
                   alt="featured-articles"
@@ -286,22 +205,164 @@ function main() {
                 />
               </div>
             </div>
+            <div>
+              <h6
+                style={{
+                  marginTop: "1rem",
+                  textAlign: "center",
+                  color: "#656565",
+                  fontFamily: "Inter",
+                  fontSize: "28px",
+                  fontStyle: " normal",
+                  fontWeight: " 500",
+                  lineHeight: " normal",
+                position:"absolute",
+                marginLeft:"5.8%",
+                width:"500px"
+                }}
+              >
+                MERN Stack
+              </h6>
+            </div>
+          </div>
+          <div class="featured-card">
             <div
-              style={{
-                textAlign: "center",
-                color: "#656565",
-                fontFamily: "Inter",
-                fontSize: "30px",
-                fontStyle: " normal",
-                fontWeight: " 500",
-                lineHeight: " normal",
-              }}
+              class="col-lg-5 col-md-12 col-sm-12 zoom"
+              style={{ height: "359px", width: "606px" }}
             >
-              <h6>MERN STACK</h6>
+              <div class="hideoverflow-image zoom">
+                <img
+                  src="Rectangle 51.png"
+                  alt="featured-articles"
+                  class="card-image"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div>
+              <h6
+                style={{
+                  marginTop: "1rem",
+                  textAlign: "center",
+                  color: "#656565",
+                  fontFamily: "Inter",
+                  fontSize: "28px",
+                  fontStyle: " normal",
+                  fontWeight: " 500",
+                  lineHeight: " normal",
+                position:"absolute",
+                marginLeft:"5.8%",
+                width:"500px"
+                }}
+              >
+                Data Science
+              </h6>
+            </div>
+          </div>
+          <div class="featured-card">
+            <div
+              class="col-lg-5 col-md-12 col-sm-12 zoom"
+              style={{ height: "359px", width: "606px" }}
+            >
+              <div class="hideoverflow-image zoom">
+                <img
+                  src="Rectangle 53.png"
+                  alt="featured-articles"
+                  class="card-image"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div>
+              <h6
+                style={{
+                  marginTop: "1rem",
+                  textAlign: "center",
+                  color: "#656565",
+                  fontFamily: "Inter",
+                  fontSize: "28px",
+                  fontStyle: " normal",
+                  fontWeight: " 500",
+                  lineHeight: " normal",
+                position:"absolute",
+                marginLeft:"5.8%",
+                width:"500px"
+                }}
+              >
+                FULL Stack Development
+              </h6>
+            </div>
+          </div>
+          <div class="featured-card">
+            <div
+              class="featured-image-wrapper zoom"
+              style={{ height: "359px", width: "606px" }}
+            >
+              <div class="hideoverflow-image zoom">
+                <img
+                  src="Rectangle 58.png"
+                  alt="featured-articles"
+                  class="card-image"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div>
+              <h6
+                style={{
+                  marginTop: "1rem",
+                  textAlign: "center",
+                  color: "#656565",
+                  fontFamily: "Inter",
+                  fontSize: "30px",
+                  fontStyle: " normal",
+                  fontWeight: " 500",
+                  lineHeight: " normal",
+                position:"absolute",
+                marginLeft:"5.8%",
+                width:"500px"
+                }}
+              >
+                Medical Coding
+              </h6>
+            </div>
+          </div>
+          <div class="featured-card">
+            <div
+              class="featured-image-wrapper zoom"
+              style={{ height: "359px", width: "606px" }}
+            >
+              <div class="hideoverflow-image zoom">
+                <img
+                  src="Rectangle 59.png"
+                  alt="featured-articles"
+                  class="card-image"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <div>
+              <h6
+                style={{
+                  marginTop: "1rem",
+                  textAlign: "center",
+                  color: "#656565",
+                  fontFamily: "Inter",
+                  fontSize: "30px",
+                  fontStyle: " normal",
+                  fontWeight: " 500",
+                  lineHeight: " normal",
+                position:"absolute",
+                marginLeft:"5.8%",
+                width:"500px"
+                }}
+              >
+                IELTS & TOEFL
+              </h6>
             </div>
           </div>
         </div>
-       
+
         <h2
           class="section-heading"
           style={{
@@ -312,29 +373,44 @@ function main() {
             fontStyle: " normal",
             fontWeight: " 700",
             lineHeight: " normal",
+            marginTop:"5rem"
           }}
         >
           Get the{" "}
           <span
             style={{
               color: " #000",
-              borderBottom: "3px dashed #1D79C2",
+              borderBottom: "6px dashed #1D79C2",
               fontFamily: "Inter",
               fontSize: " 50px",
               fontStyle: " normal",
               fontWeight: " 700",
               lineHeight: " normal",
+            
             }}
           >
-            advantage
+            advanta
           </span>
+          ge
         </h2>
-        <img src="Group 118.png" alt="" style={{width:"140px",height:"120px",marginLeft:"30rem",marginTop:"-5rem"}} />
+        <img
+          src="Group 118.png"
+          alt=""
+          style={{
+            width: "140px",
+            height: "120px",
+            marginLeft: "32rem",
+            marginTop: "-1rem",
+          }}
+        />
       </section>
-      <section style={{ marginTop: "-14rem" }}>
-        <div style={{ backgroundColor: "#f5f5f5", height: "auto" }}>
+      <section style={{ marginTop: "-15rem" }}>
+        <div style={{ backgroundColor: "#f5f5f5", height: "auto",boxShadow:"0px 1px 5px 5px rgba(0,0,0,0.08)" }}>
           <div class="container"></div>
-          <section class="css-te3fh4-SectionWrapper e15j23t0" style={{padding:"3rem"}}>
+          <section
+            class="css-te3fh4-SectionWrapper e15j23t0"
+            style={{ padding: "6rem" }}
+          >
             <div
               class="css-asdm4n-TextContainer e15j23t3"
               style={{ paddingLeft: "8rem" }}
@@ -359,7 +435,7 @@ function main() {
                     fontStyle: "normal",
                     fontWeight: " 600",
                     lineHeight: "70px",
-                    borderBottom: "3px solid red",
+                    borderBottom: "5px solid red",
                   }}
                 >
                   scale
@@ -370,7 +446,7 @@ function main() {
                 style={{
                   color: "#656565",
                   fontFamily: "Inter",
-                  fontSize: " 17px",
+                  fontSize: " 20px",
                   fontStyle: "normal",
                   fontWeight: " 400",
                   lineHeight: "30px",
@@ -387,10 +463,12 @@ function main() {
                     width: "237px",
                     height: "59px",
                     borderRadius: " 10px",
+                    color:"white",
+                    marginTop:"32px"
                   }}
-                  class="e15j23t5 e10nf3mz0 aquilla-button button css-160bjjb-LearningButton-Learning"
+                  class=""
                 >
-                  <span class="button--label-content css-0">
+                  <span class="button--label-content css-0" style={{fontSize:"22px"}}>
                     Start learning
                   </span>
                 </button>
@@ -400,8 +478,16 @@ function main() {
               class="css-1bk9s6h-StatsContainer e15j23t4"
               style={{ paddingRight: "7rem" }}
             >
-              <div class="css-14h8cqt-Left e15j23t6" >
-                <div class="css-1fuyrwz-CardWrapper e991mst0" style={{backgroundColor:"white"}}>
+              <div class="css-14h8cqt-Left e15j23t6">
+                <div
+                  class="css-1fuyrwz-CardWrapper e991mst0"
+                  style={{
+                    borderRadius: " 10px",
+                    border: " 0px solid rgba(0, 0, 0, 0.10)",
+                    background: " rgba(255, 255, 255, 0.30)",
+                    boxShadow: "0px 5px 20px 0px rgba(0, 0, 0, 0.05)",
+                  }}
+                >
                   <div class="css-gytqqx-Left e991mst3">
                     <span class="css-16zmcy3-SecText e991mst7">
                       Students enrolled
@@ -414,11 +500,11 @@ function main() {
                     </div>
                   </div>
                   <div
-                    class="css-ds2g6j-CardImageWrapper e991mst1"
+                    class="css-ds2g6j-CardImageWrapper e991mst1 zoom"
                     style={{
                       position: " absolute",
                       right: "20px",
-                      bottom: " 27.5px",
+                      bottom: " 10.5px",
                       zIndex: " 1",
                     }}
                   >
@@ -439,7 +525,15 @@ function main() {
                     />
                   </div>
                 </div>
-                <div class="css-1fuyrwz-CardWrapper e991mst0"  style={{backgroundColor:"white"}}>
+                <div
+                  class="css-1fuyrwz-CardWrapper e991mst0"
+                  style={{
+                    borderRadius: " 10px",
+                    border: " 0px solid rgba(0, 0, 0, 0.10)",
+                    background: " rgba(255, 255, 255, 0.30)",
+                    boxShadow: "0px 5px 20px 0px rgba(0, 0, 0, 0.05)",
+                  }}
+                >
                   <div class="css-gytqqx-Left e991mst3">
                     <span class="css-16zmcy3-SecText e991mst7">Counselled</span>
                     <div class="css-1r6zuyg-Row e991mst4">
@@ -450,7 +544,7 @@ function main() {
                     </div>
                   </div>
                   <div
-                    class="css-ds2g6j-CardImageWrapper e991mst1"
+                    class="css-ds2g6j-CardImageWrapper e991mst1 zoom"
                     style={{
                       position: " absolute",
                       right: "20px",
@@ -475,7 +569,15 @@ function main() {
                     />
                   </div>
                 </div>
-                <div class="css-1fuyrwz-CardWrapper e991mst0"  style={{backgroundColor:"white"}}>
+                <div
+                  class="css-1fuyrwz-CardWrapper e991mst0"
+                  style={{
+                    borderRadius: " 10px",
+                    border: " 0px solid rgba(0, 0, 0, 0.10)",
+                    background: " rgba(255, 255, 255, 0.30)",
+                    boxShadow: "0px 5px 20px 0px rgba(0, 0, 0, 0.05)",
+                  }}
+                >
                   <div class="css-gytqqx-Left e991mst3">
                     <span class="css-16zmcy3-SecText e991mst7">
                       Partner with us
@@ -488,7 +590,7 @@ function main() {
                     </div>
                   </div>
                   <div
-                    class="css-ds2g6j-CardImageWrapper e991mst1"
+                    class="css-ds2g6j-CardImageWrapper e991mst1 zoom"
                     style={{
                       position: " absolute",
                       right: "20px",
@@ -515,7 +617,15 @@ function main() {
                 </div>
               </div>
               <div class="css-1xkc73q-Left-Right e15j23t7">
-                <div class="css-1fuyrwz-CardWrapper e991mst0"  style={{backgroundColor:"white"}}>
+                <div
+                  class="css-1fuyrwz-CardWrapper e991mst0"
+                  style={{
+                    borderRadius: " 10px",
+                    border: " 0px solid rgba(0, 0, 0, 0.10)",
+                    background: " rgba(255, 255, 255, 0.30)",
+                    boxShadow: "0px 5px 20px 0px rgba(0, 0, 0, 0.05)",
+                  }}
+                >
                   <div class="css-gytqqx-Left e991mst3">
                     <span class="css-16zmcy3-SecText e991mst7">Placements</span>
                     <div class="css-1r6zuyg-Row e991mst4">
@@ -526,7 +636,7 @@ function main() {
                     </div>
                   </div>
                   <div
-                    class="css-ds2g6j-CardImageWrapper e991mst1"
+                    class="css-ds2g6j-CardImageWrapper e991mst1 zoom"
                     style={{
                       position: " absolute",
                       right: "20px",
@@ -551,7 +661,15 @@ function main() {
                     />
                   </div>
                 </div>
-                <div class="css-1fuyrwz-CardWrapper e991mst0"  style={{backgroundColor:"white"}}>
+                <div
+                  class="css-1fuyrwz-CardWrapper e991mst0"
+                  style={{
+                    borderRadius: " 10px",
+                    border: " 0px solid rgba(0, 0, 0, 0.10)",
+                    background: " rgba(255, 255, 255, 0.30)",
+                    boxShadow: "0px 5px 20px 0px rgba(0, 0, 0, 0.05)",
+                  }}
+                >
                   <div class="css-gytqqx-Left e991mst3">
                     <span class="css-16zmcy3-SecText e991mst7">Upskilled</span>
                     <div class="css-1r6zuyg-Row e991mst4">
@@ -562,7 +680,7 @@ function main() {
                     </div>
                   </div>
                   <div
-                    class="css-ds2g6j-CardImageWrapper e991mst1"
+                    class="css-ds2g6j-CardImageWrapper e991mst1 zoom"
                     style={{
                       position: " absolute",
                       right: "20px",
@@ -595,12 +713,28 @@ function main() {
       <section
         id="feautredArticles"
         class="featured-atricles-section is-visible-viewport"
+        style={{marginTop:"5rem",height:'600px'}}
       >
-        <div class="container">
-          <h2 class="section-heading">What Our Students Say</h2>
+        <div class="container" style={{marginTop:"" ,height:"140px"}}>
+          <h1
+            class=""
+            style={{ fontSize: "50px", fontWeight: "bold",color:"black",textAlign:"center",fontFamily:"Inter" }}
+          >
+            What Our{" "}
+            <span
+              style={{
+                borderBottom: " 4px dashed red",
+                fontSize: "50px",
+                fontWeight: "bold",
+              }}
+            >
+              Students
+            </span>{" "}
+            Say
+          </h1>
         </div>
-        <div class="pb-40 marquee flex">
-          <div class="featured-card">
+        <div class="pb-40 marquee flex" style={{gap:"3rem"}}>
+          <div class="featured-card" style={{width:"515px",height:"703px"}}>
             <div class="featured-image-wrapper">
               <div class="hideoverflow-image">
                 <img
@@ -615,14 +749,14 @@ function main() {
               </div>
             </div>
             <div class="featured-contents">
-              <h6>Shreya Kathare - Age 11 , Class 5</h6>
+              <h6>Shridhar Shrivastav - Age 13 , Class 8</h6>
               <div class="description">
-                Shreya developed a school website which effectively communicated
-                the school's vision and mission.
+                Shridhar built a Bubble Shooting Game which allows players to
+                shoot and win over enemies
               </div>
             </div>
           </div>
-          <div class="featured-card">
+          <div class="featured-card" style={{width:"515px",height:"703px"}}>
             <div class="featured-image-wrapper">
               <div class="hideoverflow-image">
                 <img
@@ -637,14 +771,14 @@ function main() {
               </div>
             </div>
             <div class="featured-contents">
-              <h6>Roy Nunez</h6>
+              <h6>Shridhar Shrivastav - Age 13 , Class 8</h6>
               <div class="description">
-                Roy built an Air Hockey Battle app that allows you to play Air
-                Hockey on your phone.
+                Shridhar built a Bubble Shooting Game which allows players to
+                shoot and win over enemies
               </div>
             </div>
           </div>
-          <div class="featured-card">
+          <div class="featured-card" style={{width:"515px",height:"703px"}}>
             <div class="featured-image-wrapper">
               <div class="hideoverflow-image">
                 <img
@@ -659,13 +793,14 @@ function main() {
               </div>
             </div>
             <div class="featured-contents">
-              <h6>Dhruva Shah - Age 13 , Class 8</h6>
+              <h6>Shridhar Shrivastav - Age 13 , Class 8</h6>
               <div class="description">
-                Dhruva created a Space Shooter Game which resembles outer space
+                Shridhar built a Bubble Shooting Game which allows players to
+                shoot and win over enemies
               </div>
             </div>
           </div>
-          <div class="featured-card">
+          <div class="featured-card" style={{width:"515px",height:"703px"}}>
             <div class="featured-image-wrapper">
               <div class="hideoverflow-image">
                 <img
@@ -680,14 +815,14 @@ function main() {
               </div>
             </div>
             <div class="featured-contents">
-              <h6>Anthony Watkins</h6>
+              <h6>Shridhar Shrivastav - Age 13 , Class 8</h6>
               <div class="description">
-                Anthony built Control the Drone app that allows him to maneuver
-                his own drone
+                Shridhar built a Bubble Shooting Game which allows players to
+                shoot and win over enemies
               </div>
             </div>
           </div>
-          <div class="featured-card">
+          <div class="featured-card" style={{width:"515px",height:"703px"}}>
             <div class="featured-image-wrapper">
               <div class="hideoverflow-image">
                 <img
@@ -709,7 +844,7 @@ function main() {
               </div>
             </div>
           </div>
-          <div class="featured-card">
+          <div class="featured-card" style={{width:"515px",height:"703px"}}>
             <div class="featured-image-wrapper">
               <div class="hideoverflow-image">
                 <img
@@ -731,7 +866,7 @@ function main() {
               </div>
             </div>
           </div>
-          <div class="featured-card">
+          <div class="featured-card" style={{width:"515px",height:"703px"}}>
             <div class="featured-image-wrapper">
               <div class="hideoverflow-image">
                 <img
@@ -746,14 +881,14 @@ function main() {
               </div>
             </div>
             <div class="featured-contents">
-              <h6>Christian Sheeder</h6>
+              <h6>Shridhar Shrivastav - Age 13 , Class 8</h6>
               <div class="description">
-                Christian developed Polio Vaccine Calculator app to keep a tab
-                on vaccines required for kids
+                Shridhar built a Bubble Shooting Game which allows players to
+                shoot and win over enemies
               </div>
             </div>
           </div>
-          <div class="featured-card">
+          <div class="featured-card" style={{width:"515px",height:"703px"}}>
             <div class="featured-image-wrapper">
               <div class="hideoverflow-image">
                 <img
@@ -768,17 +903,17 @@ function main() {
               </div>
             </div>
             <div class="featured-contents">
-              <h6>Kiara Bhandari - Age 8 , Class 3</h6>
+              <h6>Shridhar Shrivastav - Age 13 , Class 8</h6>
               <div class="description">
-                Kiara built a Restaurant application which allows restaurants to
-                take online orders
+                Shridhar built a Bubble Shooting Game which allows players to
+                shoot and win over enemies
               </div>
             </div>
           </div>
         </div>
       </section>
-     
-      <Content/> 
+
+      <Content />
     </div>
   );
 }

@@ -3,7 +3,9 @@ import "./about.css";
 import Company from "../component/Company/company";
 function About() {
   return (
-    <div style={{ width: "100%", height: "auto" }}>
+    
+    <div style={{ width: "100%", height: "auto" ,background:"white"}}>
+    <section>
       <div
         class=""
         style={{
@@ -16,7 +18,7 @@ function About() {
           display: "flex",
         }}
       >
-        <div style={{ margin: "-8rem 0 0 8rem" }}>
+        <div style={{ margin: "-8rem 0 0 5rem" }}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="103"
@@ -80,13 +82,31 @@ function About() {
             display: "flex",
             justifyItems: "center",
             textAlign: "center",
-            marginLeft: "14rem",
+            marginTop: "6rem",
+            marginLeft: "-9rem",
           }}
         >
           {/* <h class="heading" style={{marginLeft:"8rem"}}>ABOUT US</h> */}
-          <h1 class="dis">
-            <span class="heading">ABOUT US</span>
-            Empowering your <span class="emphasized">aspirations</span>
+          <h1 class="dis" style={{ fontSize: "80px", lineHeight: "80px" }}>
+            <p class="heading">
+              {" "}
+              <span
+                style={{
+                  fontFamily: "Allerta Stencil",
+                  borderBottom: "4px solid red",
+                  fontSize: "26px",
+                }}
+              >
+                ABO
+              </span>
+              <span style={{ fontFamily: "Allerta Stencil", fontSize: "26px" }}>
+                UT US
+              </span>
+            </p>
+            Empowering your{" "}
+            <span class="emphasized" style={{ fontSize: "80px" }}>
+              aspirations
+            </span>
           </h1>
         </div>
         <div style={{ height: " 100%", width: " auto" }}>
@@ -94,7 +114,7 @@ function About() {
             style={{
               verticalAlign: "middle",
               borderStyle: "none",
-              width: "386px",
+              width: "450px",
               height: " 488px",
               flexShrink: " 0",
             }}
@@ -105,56 +125,129 @@ function About() {
           />
         </div>
       </div>
-      <section>
-        <div
-          style={{
-            width: " 1920px",
-            height: "300px",
-            flexShrink: "0",
-            backgroundColor: "#F5F5F5",
-            marginTop:"6rem"
-          }}
-        >
-          <p className="future" style={{marginLeft:"23%"}}>
+      </section>
+      <section  style={{
+          width:"100%",
+          height:"488px",
+          backgroundColor:"#f5f5f5"
+           
+          }}>
+      
+         
+        
+          <p
+            className="future"
+            style={{
+              marginLeft: "23%",
+              fontFamily: "Allerta Stencil",
+              fontWeight: "400",
+              marginTop:"5rem"
+            }}
+          >
             "Building bridges to your future -
-            <span className="portfolio">Your portfolio</span> ,
-            <span className="priority">our priority</span> ."
+            <span
+              className="portfolio"
+              style={{ fontFamily: "Allerta Stencil" }}
+            >
+              Your portfolio
+            </span>{" "}
+            ,
+            <span
+              className="priority"
+              style={{ fontFamily: "Allerta Stencil" }}
+            >
+              our priority
+            </span>{" "}
+            ."
           </p>
-          <div style={{  marginTop:"5rem",marginLeft:"15%"}}>
-            <p className="student" style={{width:"1220px"}}>
-              <span style={{ color: "#000",textAlign:"center" }}>Career Dose</span> is a Student
-              Portfolio Management Company that help students manage their
-              academic and professional portfolios, providing them with the
-              tools and guidance to showcase their achievements and skills
-              effectively. Our mentors hold your hands right from the beginning
-              of your academic journey and work individually on every single
-              portfolio to craft their success stories. We offer tailored
+          <div style={{ marginTop: "3rem", marginLeft: "15%" }}>
+            <p className="student" style={{ width: "1220px" }}>
+              <span
+                style={{
+                  color: "#000",
+                  textAlign: "center",
+                  fontWeight: "500",
+                }}
+              >
+                Career Dose
+              </span>{" "}
+              is a Student Portfolio Management Company that help students
+              manage their academic and professional portfolios, providing them
+              with the tools and guidance to showcase their achievements and
+              skills effectively. Our mentors hold your hands right from the
+              beginning of your academic journey and work individually on every
+              single portfolio to craft their success stories. We offer tailored
               solutions for every student to lead their journey from academics
               to placements.
             </p>
           </div>
-        </div>
+       
+        </section>
         <section style={{ width: "100%", height: "auto" }}>
-          <div className="management">
+          <div className="management ">
             <img
               src="Group 139.svg"
               alt=""
-              style={{ marginLeft: "26%", marginTop: "8%", width: "900px" }}
+              style={{ marginLeft: "24%", marginTop: "5%", width: "900px" }}
             />
-            <div style={{ display: "flex",marginBottom:"9rem" }}>
-              <img
+            <div
+              class="col-lg-5 col-md-12 col-sm-12 "
+              style={{ display: "flex", marginBottom: "9rem" }}
+            >
+              <p
+                style={{
+                  color: " #000",
+                  textAlign: "center",
+                  fontFamily: " Inter",
+                  fontSize: " 50px",
+                  fontStyle: " normal",
+                  fontWeight: " 900",
+                  lineHeight: " normal",
+                  marginLeft: "20.5%", marginTop: "7%", width: "1000px"
+                }}
+              >
+                <span
+                  style={{
+                    color: " #000",
+                    textAlign: "center",
+                    fontFamily: " Inter",
+                    fontSize: " 50px",
+                    fontStyle: " normal",
+                    fontWeight: " 900",
+                    lineHeight: " normal",
+                    borderTop:"5PX solid #1d79c2"
+                  }}
+                >
+                  Our{" "} {" "}
+                </span>{" "}
+                <span
+                  style={{
+                    color: " #FF3049",
+                    textAlign: "center",
+                    fontFamily: " Inter",
+                    fontSize: " 50px",
+                    fontStyle: " normal",
+                    fontWeight: " 900",
+                    lineHeight: " normal",
+                  }}
+                >
+                  MOTO{" "}
+                </span>
+                is to nurture success with Lord Krishna’s teachings.
+              </p>
+              {/* <img
                 src="moto.svg"
                 alt=""
-                style={{ marginLeft: "26%", marginTop: "10%", width: "900px" }}
-              />
+                style={{ marginLeft: "26%", marginTop: "4%", width: "900px" }}
+              /> */}
               <img
                 src="Group 140.svg"
                 alt=""
                 style={{
-                  marginLeft: "-45%",
+                  marginLeft: "-47.6%",
                   display: "block",
-                  marginTop: "7%",
-                  width: "1000px",
+                  marginTop: "1.3%",
+                  width: "980px",
                 }}
               />
             </div>
@@ -162,14 +255,15 @@ function About() {
           <div
             style={{
               display: "flex",
-              justifyContent: "space-around",
+              justifyContent: "space-evenly",
               marginBottom: "5rem",
             }}
           >
             <div style={{ marginTop: "7rem" }}>
-              <h1 className="mission">Our Mission</h1>
-              <h5 className="way">Empowering Futures, Every Step of the Way</h5>
-              <p className="dedication">
+              <h1 className="mission"  style={{ fontFamily:"Inter" }}>Our Mission</h1>
+              <div style={{width:"406px",height:"20px",backgroundColor:"rgba(255,48,73,0.15)",marginTop:"-2.5rem"}}></div>
+              <h5 className="way"  style={{ marginTop: "2rem",fontFamily:"Inter"  }}>Empowering Futures, Every Step of the Way</h5>
+              <p className="dedication" style={{marginTop:"2rem"}}>
                 At Career Dose, our unwavering dedication is to provide
                 steadfast support to students throughout their educational
                 journey. We firmly believe that each step a student takes is
@@ -177,11 +271,11 @@ function About() {
                 a positive contribution at every juncture.
               </p>
             </div>
-            <div>
+            <div class=" zoom">
               <img
                 src="Group 133.svg"
                 alt=""
-                style={{ width: "500px", height: "500px" }}
+                style={{ width: "733px", height: "642px" }}
               />
             </div>
           </div>
@@ -191,39 +285,68 @@ function About() {
         >
           <Company />
         </section>
-        <section style={{backgroundColor:"#fcfcfc"}}>
+        <section style={{ backgroundColor: "#fcfcfc",boxShadow:"0px 0px 10px 0px rgba(0, 0 ,0, 0.10) inset",padding:"5rem",height:"400px" }}>
           <div>
-            <h1 className="founder" style={{display:"flex",margin:"3rem 0 0 9rem"}}>
+            <h1
+              className="founder"
+              style={{ display: "flex", margin: "3rem 0 0 9rem" }}
+            >
               Founder’s<span className="vision"> Vision</span>
             </h1>
-            <div style={{ display: "flex",justifyContent:"space-evenly",margin:"5rem 0" }}>
-              <div>
-                <img src="Rectangle 82.png" alt="" style={{width:"698px",height:"530px"}} />
+            <div style={{width:"545px",height:"20px",backgroundColor:"rgba(5,182,122,0.10)",marginTop:"-1.8rem",marginLeft:"9rem"}}></div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-evenly",
+                margin: "5rem 0",
+              }}
+            >
+              <div className="zoom">
+                <img
+                  src="Rectangle 82.png"
+                  alt=""
+                  style={{ width: "698px", height: "530px" }}
+                />
               </div>
               <div>
-                <img src="vistars.png" alt="" style={{width:"698px",height:"440px",marginTop:"4rem"}} />
+                <img
+                  src="vistars.png"
+                  alt=""
+                  style={{ width: "698px", height: "440px", marginTop: "4rem" }}
+                />
               </div>
             </div>
           </div>
         </section>
-        <section style={{width:"100%",height:"auto",marginBottom:"8rem",backgroundColor:"#f6f7ff"}}>
-          <h1 className="story">Our Story</h1>
-          <div className="excel">
-          <p className="empower">
-            Career Dose was founded in 2016 to empower students by providing
-            them with the resources, guidance, and opportunities they need to
-            excel academically and personally. We strive to offer personalized
-            solutions that cater to student’s specific needs and help them
-            unlock their full potential. Through our comprehensive range of
-            services and programs, we aim to create well-rounded individuals who
-            are ready to thrive in a dynamic and ever-changing world. Our
-            ultimate goal is to witness each student’s growth and success, not
-            just academically, but as confident, compassionate, and responsible
+        <section
+         
+        >
+        <div  style={{
+            width: "100%",
+            height: "500px",
+            marginTop:"30rem",
+            marginBottom: "8rem",
+            backgroundColor: "#f6f7ff",
+          }}>
+          <h1 className="story" style={{marginTop:"10rem"}} >Our Story</h1>
+          <div style={{width:"330px",height:"20px",backgroundColor:"rgba(255,48,73,0.15)",marginTop:"-2.4rem",marginLeft:"40%"}}></div>
+          <div className="excel" style={{width:" 1200px",marginLeft: "258px",marginTop: "49px",height:"380px"}}>
+            <p className="confident" >
+             <span style={{color:"#000"}} className="car">Career Dose </span> was founded in 2016 to empower students by providing
+              them with the resources, guidance, and opportunities they need to
+              excel academically and personally. We strive to offer personalized
+              solutions that cater to student’s specific needs and help them
+              unlock their full potential. Through our comprehensive range of
+              services and programs, we aim to create well-rounded individuals
+              who are ready to thrive in a dynamic and ever-changing world. Our
+              ultimate goal is to witness each student’s growth and success, not
+              just academically, but as confident, compassionate, and responsible
             individuals.
-          </p>
+            </p>
+          </div>
           </div>
         </section>
-      </section>
+   
     </div>
   );
 }

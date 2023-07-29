@@ -9,18 +9,19 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white-800 fixed top-0 w-full z-10" style={{ backgroundColor: "white" }}>
-      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-12">
+    <nav className="bg-white-800 fixed top-0 w-full z-10" style={{ backgroundColor: "white",padding:"10px",boxShadow:"0px 4px 10px 0px rgba(0,0,0,0.20)" }}>
+      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-12" style={{maxWidth:"103rem"}}>
         <div className="relative flex items-center justify-between h-16">
-          <div className="flex items-center" >
+          <div className="flex items-center" style={{marginLeft:"1rem"}} >
           <a href='/'>
             <img src="dose.svg" alt="dose" style={{ width: "9rem", height: "3rem" }}  />
             {/* Replace with your logo */}
             </a>
           </div>
-          <div className="hidden sm:block" style={{ marginLeft: '23rem' }}>
-            <div className="ml-4 flex items-center space-x-4">
+          <div className="hidden sm:block" >
+            <div className="ml-4 flex  space-x-4" >
               <NavLink
+              style={{color:"#000",fontFamily:"Inter",fontSize:"20px",fontStyle:"normal",fontWeight:"400",}}
                 to="/about"
                 activeClassName="text-white bg-gray-700"
                 className="block text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
@@ -28,6 +29,7 @@ const Navbar = () => {
                 About Us
               </NavLink>
               <NavLink
+                style={{color:"#000",fontFamily:"Inter",fontSize:"20px",fontStyle:"normal",fontWeight:"400",}}
                 to="/career"
                 activeClassName="text-white bg-gray-700"
                 className="block text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
@@ -35,6 +37,7 @@ const Navbar = () => {
                 Career
               </NavLink>
               <NavLink
+                style={{color:"#000",fontFamily:"Inter",fontSize:"20px",fontStyle:"normal",fontWeight:"400",}}
                 to="/partner"
                 activeClassName="text-white bg-gray-700"
                 className="block text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
@@ -42,6 +45,7 @@ const Navbar = () => {
                 Partner With Us
               </NavLink>
               <NavLink
+                style={{color:"#000",fontFamily:"Inter",fontSize:"20px",fontStyle:"normal",fontWeight:"400",}}
                 to="/contact"
                 activeClassName="text-white bg-gray-700"
                 className="block text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"

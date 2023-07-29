@@ -3,7 +3,6 @@ import React from "react";
 import Carousel from "react-elastic-carousel";
 import Item from "../../Item";
 
-
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2 },
@@ -14,28 +13,56 @@ const breakPoints = [
 function Company() {
   return (
     <>
-     
-      <div >
-     
-        <Carousel breakPoints={breakPoints}>
-          <Item><img src="2 9389.png"/></Item>
-          <Item><img src="4 7.png"/></Item>
-          <Item><img src="Hinduja Tech logo 1.png"/></Item>
-          <Item><img src="Capgemini.png"/></Item>
-          <Item><img src="Sasken.png"/></Item>
-          <Item><img src="3 341.png"/></Item>
-          <Item><img src="2 9389.png"/></Item>
-          <Item><img src="2 9389.png"/></Item>
+      <div>
+        <Carousel breakPoints={breakPoints} >
+          <Item className="zoom">
+            <img src="2 9389.png" />
+          </Item>
+          <Item className="zoom">
+            <img src="4 7.png" />
+          </Item>
+          <Item className="zoom">
+            <img src="Hinduja Tech logo 1.png" />
+          </Item>
+          <Item className="zoom" style={{margin:'2rem 0 0 5rem'}}>
+            <img src="northwood.jpg" />
+          </Item>
+          <Item className="zoom" style={{margin:'2rem 0 0 5rem'}}>
+            <img src="Capgemini.png" />
+          </Item>
+          <Item className="zoom">
+            <img src="Sasken.png" />
+          </Item>
+          <Item className="zoom" >
+            <img src="3 341.png" />
+          </Item>
+          <Item className="zoom">
+            <img src="KPMG.svg" />
+          </Item>
+          <Item className="zoom">
+            <img src="L&T.SVG" />
+          </Item>
         </Carousel>
-        <h1 style={{ textAlign: "center",color:" #000",
-
-fontFamily: "Inter",
-fontSize:" 25px",
-fontStyle:" normal",
-fontWeight: "500",
-lineHeight: "normal" }}>Our Partners & Universities</h1>
+        
       </div>
-
+      <h1
+          style={{
+            
+            textAlign: "center",
+            color: " #000",
+            marginTop: "3rem",
+            fontFamily: "Inter",
+            fontSize: " 25px",
+            fontStyle: " normal",
+            fontWeight: "500",
+            lineHeight: "normal",
+            borderBottom:"3px solid #e1e1e1",
+            display:"inline",
+           marginLeft:"40%"
+          }}
+        >
+         Our Partners & Universities
+        </h1>
     </>
   );
 }

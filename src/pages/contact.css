@@ -1483,17 +1483,33 @@
     }
     .gmap_canvas {overflow:hidden;background:none;height:100%;width:100%;}
     .mapouter{position:relative;text-align:right;height:100%;width:100%;}
-    .et{
-        color: #000;
-font-family: Inter;
-font-size: 70px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-display: inline;
-border-bottom: 5px solid red;
+   /* Define the animation */
+@keyframes borderAnimation {
+  0% {
+      border-color: red;
+  }
+  50% {
+      border-color: blue;
+  }
+  100% {
+      border-color: red;
+  }
+}
 
-    }
+/* Apply the animation to the .et class */
+.et {
+  color: #000;
+  font-family: Inter;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: inline;
+  border-bottom: 5px solid red;
+  animation: borderAnimation 3s infinite; /* 3s is the duration, "infinite" makes it repeat */
+}
+
+    
     .us{
         color: #000;
         font-family: Inter;
@@ -1512,15 +1528,29 @@ font-weight: 600;
 line-height: normal;
     }
 
-    .ouch{
-        color: #00AFF0;
-font-family: Inter;
-font-size: 70px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+   /* Define the animation */
+@keyframes bounceAnimation {
+  0% {
+    color: red;
+}
+50% {
+    color: #00AFF0;
+}
+100% {
+  color: rgb(38, 255, 0);
+}
+}
 
-    }
+/* Apply the animation to the .ouch class */
+.ouch {
+  color: #00AFF0;
+  font-family: Inter;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  animation: bounceAnimation 1s infinite; /* 1s is the duration, "infinite" makes it repeat */
+}
 
    
     .form-control{

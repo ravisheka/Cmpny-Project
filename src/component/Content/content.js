@@ -8,32 +8,33 @@ function content() {
     <div>
       <div
         class="edx-vision border text-white"
-        style={{ backgroundColor: "#180F20", display: "flex", height: "604px" }}
+        style={{ backgroundColor: "#0063b2", display: "flex", height: "500px" }}
       >
         <div class="content container-mw-lg container-fluid" style={{paddingLeft:"10rem"}}>
           <h2
             class="h2 vision-heading mb-4"
             style={{
-              color: " #FF3049",
+              color: " #FFF",
               textAlign: "justify",
-              fontFamily: " Kurale",
-              fontSize: "35px",
+              fontFamily: " Allerta Stencil",
+              fontSize: "24px",
               fontStyle: " normal",
               fontWeight: " 400",
               lineHeight: "30px",
             }}
           >
-            Our vision
+           <span style={{borderBottom:"3px solid #ffdd55"}}> Our</span> vision
           </h2>
           <p
             class="h1 text-white col-lg-7 p-0 mb-5"
             style={{
               fontFamily: " Inter",
-              fontSize: "20px",
+              fontSize: "27px",
               fontStyle: "normal",
               fontWeight: " 600",
-              lineHeight: " 25px",
+              lineHeight: " 30px",
               letterSpacing: "-0.66px",
+              width:'650px'
             }}
           >
             Embracing the Wisdom of the{" "}
@@ -44,23 +45,25 @@ function content() {
              
             }}>Bhagavad Gita</span>: Nurturing Success with
             LORD Krishna’s Teachings
-            <p className="right" style={{width:"900px",fontSize: "25px"}}>
-              “RIGHT KNOWLEDGE IS THE ULTIMATE SOLUTION TO ALL OUR PROBLEMS.”
+            <br/><br/>
+            <p className="right" style={{width:"1200px",fontSize: "23px",}}>
+              “RIGHT<span style={{color:"#91e500"}}> KNOWLEDGE</span> IS THE ULTIMATE SOLUTION TO ALL OUR<span  style={{color:"#ffdd55"}}> PROBLEMS</span>.”
             </p>
           </p>
           <div
-            style={{ width: "192px", height: "54px", backgroundColor: "white" }}
+          className="more"
+            
           >
-            <a class="learn" href="/about-us" __tracked="true" style={{display:"flex",justifyItems:"center",padding:"6px 0 0 6px"}}>
+            <a class="learns" href="/about-us" __tracked="true" >
               Learn more
             </a>
           </div>
         </div>
-        <div style={{ marginTop: "-5rem", height: "auto" }}>
+        <div style={{ marginTop: "-12.4rem", height: "auto" }} >
           <img
-            src="feather 1.png"
+            src="feather 3.svg"
             alt=""
-            style={{ height: "43rem", width: " rem" }}
+            style={{ height: "850px", width: " 850px" }}
           />
         </div>
       </div>
@@ -68,12 +71,11 @@ function content() {
      <br/>
      <br/>
      <br/>
-     <br/>
-     <br/>
+  
      
-      <Company   />
-      <section class="css-dqu6o5-SectionWrapper edss7f20">
-        <div class="contant">
+      <Company style={{backgroundColor:"#fcfcfc"}}  />
+      <section class="css-dqu6o5-SectionWrapper edss7f20" >
+        <div class="contant" style={{marginTop:'4rem'}}>
           <h4 class="get">Get the learning app</h4>
           <h4 class="join">
             Join our vibrant community and unleash the full potential of our
@@ -85,7 +87,7 @@ function content() {
               rel="noopener noreferrer"
               href="https://apps.apple.com/in/app/unacademy-learning-app/id1342565069?referrer%3Dutm_source%253DFooter%2526utm_medium%253DWebApp%2526utm_campaign%253DFooter%2526"
             >
-              <div class="css-1jjf8c-StoreImage-AppStoreImage edss7f27">
+              <div class="css-1jjf8c-StoreImage-AppStoreImage edss7f27 zoom">
                 <img
                   alt="appStore"
                   srcset="
@@ -108,7 +110,7 @@ function content() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div class="css-xkbt8r-StoreImage-PlayStoreImage edss7f28">
+              <div class="css-xkbt8r-StoreImage-PlayStoreImage edss7f28 zoom">
                 <img
                   alt="playStore"
                   srcset="
@@ -128,11 +130,13 @@ function content() {
             </a>
           </div>
         </div>
-        <div class="" >
-          <img alt="phone" src="get app.svg"  style={{ width:"900px",height:"700px",marginLeft:'14rem' }}/>
-        </div>
+      <img alt="phone" src="get app 1.svg"  style={{ width:"940px",height:"940px",marginLeft:'3rem',paddingBottom:'3rem'}}/>
+          
+    
       </section>
+      <section style={{width:'100%',height:"160px",backgroundColor:"rgba(24,15,32,0.1)",marginTop:"-19rem"}}></section>
     </div>
+    
   );
 }
 
