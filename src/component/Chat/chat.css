@@ -1,0 +1,16 @@
+.chat{
+    width: 406px;
+height: 432px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #FCFCFC;
+box-shadow: -10px -10px 70px 0px rgba(0, 0, 0, 0.25), 10px 0px 70px 0px rgba(0, 0, 0, 0.25);
+}
+
+.hi {
+    width: 407px;
+    height: 154.448px;
+    flex-shrink: 0;
+   
+  }
+  

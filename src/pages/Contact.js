@@ -212,6 +212,7 @@ function Contact() {
                               type="submit"
                               value="Send Message"
                               className="btn btn-primary send"
+                              style={{width:"194px",height:"63px",marginTop:"1.8rem",fontFamily:"inter",fontWeight:"600",fontSize:"20px"}}
                             />
                             <div className="submitting"></div>
                           </div>
@@ -258,7 +259,7 @@ function Contact() {
                     </div>
                     <div className="text">
                       <p>
-                        <span>Address:</span> Address H-21, Sector-63, Noida
+                        <span>Address:</span> H-21, Sector-63, Noida
                         Uttar Pradesh, India - 201301
                       </p>
                     </div>

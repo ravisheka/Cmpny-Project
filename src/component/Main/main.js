@@ -23,7 +23,7 @@ function main() {
               textAlign: "center",
               marginLeft: "24rem",
               fontFamily: "Inter",
-              fontSize: "30px",
+              fontSize: "29px",
               fontStyle: " normal",
               fontWeight: "900",
               lineHeight: "130%",
@@ -85,7 +85,7 @@ function main() {
                 marginLeft:"13.6%"
                 }}
               >
-                classes 6-10
+                Classes 6-10
               </h6>
             </div>
           </div>
@@ -130,7 +130,7 @@ function main() {
             >
               <div class="hideoverflow-image zoom">
                 <img
-                  src="Rectangle 55.png"
+                  src="PD.png"
                   alt="featured-articles"
                   class="card-image"
                   loading="lazy"
@@ -164,7 +164,7 @@ function main() {
             >
               <div class="hideoverflow-image zoom">
                 <img
-                  src="Rectangle 56.png"
+                  src="HR .png"
                   alt="featured-articles"
                   class="card-image"
                   loading="lazy"
@@ -399,13 +399,13 @@ function main() {
           style={{
             width: "140px",
             height: "120px",
-            marginLeft: "32rem",
+            marginLeft: "39rem",
             marginTop: "-1rem",
           }}
         />
       </section>
       <section style={{ marginTop: "-15rem" }}>
-        <div style={{ backgroundColor: "#f5f5f5", height: "auto",boxShadow:"0px 1px 5px 5px rgba(0,0,0,0.08)" }}>
+        <div style={{ backgroundColor: "#f5f5f5", height: "auto",boxShadow:"0px 4px 10px 0px rgba(0,0,0,0.05)" }}>
           <div class="container"></div>
           <section
             class="css-te3fh4-SectionWrapper e15j23t0"
@@ -486,15 +486,16 @@ function main() {
                     border: " 0px solid rgba(0, 0, 0, 0.10)",
                     background: " rgba(255, 255, 255, 0.30)",
                     boxShadow: "0px 5px 20px 0px rgba(0, 0, 0, 0.05)",
+                    width:"355px",height:"184px"
                   }}
                 >
                   <div class="css-gytqqx-Left e991mst3">
-                    <span class="css-16zmcy3-SecText e991mst7">
+                    <span class="css-16zmcy3-SecText e991mst7" style={{fontFamily:"inter"}}>
                       Students enrolled
                     </span>
                     <div class="css-1r6zuyg-Row e991mst4">
-                      <span class="css-1yb456-Label e991mst5">60</span>
-                      <span class="css-9c73z1-Label-GreenLabel e991mst6">
+                      <span class="css-1yb456-Label e991mst5" style={{color:"black"}}>60</span>
+                      <span class="css-9c73z1-Label-GreenLabel e991mst6"  style={{color:"#A7C957"}}>
                         +
                       </span>
                     </div>
@@ -506,6 +507,7 @@ function main() {
                       right: "20px",
                       bottom: " 10.5px",
                       zIndex: " 1",
+                      
                     }}
                   >
                     <img
@@ -532,13 +534,14 @@ function main() {
                     border: " 0px solid rgba(0, 0, 0, 0.10)",
                     background: " rgba(255, 255, 255, 0.30)",
                     boxShadow: "0px 5px 20px 0px rgba(0, 0, 0, 0.05)",
+                    width:"355px",height:"184px"
                   }}
                 >
                   <div class="css-gytqqx-Left e991mst3">
-                    <span class="css-16zmcy3-SecText e991mst7">Counselled</span>
+                    <span class="css-16zmcy3-SecText e991mst7" style={{fontFamily:"inter"}}>Counselled</span>
                     <div class="css-1r6zuyg-Row e991mst4">
-                      <span class="css-1yb456-Label e991mst5">1.5k</span>
-                      <span class="css-9c73z1-Label-GreenLabel e991mst6">
+                      <span class="css-1yb456-Label e991mst5" style={{color:"black"}}>1.5k</span>
+                      <span class="css-9c73z1-Label-GreenLabel e991mst6"  style={{color:"#A7C957"}}>
                         +
                       </span>
                     </div>
@@ -576,15 +579,16 @@ function main() {
                     border: " 0px solid rgba(0, 0, 0, 0.10)",
                     background: " rgba(255, 255, 255, 0.30)",
                     boxShadow: "0px 5px 20px 0px rgba(0, 0, 0, 0.05)",
+                    width:"355px",height:"184px"
                   }}
                 >
                   <div class="css-gytqqx-Left e991mst3">
-                    <span class="css-16zmcy3-SecText e991mst7">
+                    <span class="css-16zmcy3-SecText e991mst7" style={{fontFamily:"inter"}}>
                       Partner with us
                     </span>
                     <div class="css-1r6zuyg-Row e991mst4">
-                      <span class="css-1yb456-Label e991mst5">3.2B</span>
-                      <span class="css-9c73z1-Label-GreenLabel e991mst6">
+                      <span class="css-1yb456-Label e991mst5" style={{color:"black"}}>3.2B</span>
+                      <span class="css-9c73z1-Label-GreenLabel e991mst6"  style={{color:"#A7C957"}}>
                         +
                       </span>
                     </div>
@@ -624,13 +628,14 @@ function main() {
                     border: " 0px solid rgba(0, 0, 0, 0.10)",
                     background: " rgba(255, 255, 255, 0.30)",
                     boxShadow: "0px 5px 20px 0px rgba(0, 0, 0, 0.05)",
+                    width:"355px",height:"184px"
                   }}
                 >
                   <div class="css-gytqqx-Left e991mst3">
-                    <span class="css-16zmcy3-SecText e991mst7">Placements</span>
+                    <span class="css-16zmcy3-SecText e991mst7" style={{fontFamily:"inter"}}>Placements</span>
                     <div class="css-1r6zuyg-Row e991mst4">
-                      <span class="css-1yb456-Label e991mst5">14k</span>
-                      <span class="css-9c73z1-Label-GreenLabel e991mst6">
+                      <span class="css-1yb456-Label e991mst5" style={{color:"black"}}>14k</span>
+                      <span class="css-9c73z1-Label-GreenLabel e991mst6"  style={{color:"#A7C957"}}>
                         +
                       </span>
                     </div>
@@ -668,13 +673,14 @@ function main() {
                     border: " 0px solid rgba(0, 0, 0, 0.10)",
                     background: " rgba(255, 255, 255, 0.30)",
                     boxShadow: "0px 5px 20px 0px rgba(0, 0, 0, 0.05)",
+                    width:"355px",height:"184px"
                   }}
                 >
                   <div class="css-gytqqx-Left e991mst3">
-                    <span class="css-16zmcy3-SecText e991mst7">Upskilled</span>
+                    <span class="css-16zmcy3-SecText e991mst7" style={{fontFamily:"Inter"}}>Upskilled</span>
                     <div class="css-1r6zuyg-Row e991mst4">
-                      <span class="css-1yb456-Label e991mst5">1M</span>
-                      <span class="css-9c73z1-Label-GreenLabel e991mst6">
+                      <span class="css-1yb456-Label e991mst5" style={{color:"black"}}>1k</span>
+                      <span class="css-9c73z1-Label-GreenLabel e991mst6" style={{color:"#A7C957"}}>
                         +
                       </span>
                     </div>

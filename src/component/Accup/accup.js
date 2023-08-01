@@ -58,7 +58,7 @@ function Accup() {
           src="ACCUP (1).svg"
           alt="acc"
           className="mt-[-10rem]"
-          style={{height:"52rem",marginLeft:"5.1rem",}}
+          style={{height:"52rem",marginLeft:"11rem",}}
         />
         <div className="mt-[-30rem] zoom" style={{width:" 192px",
 height:" 200px",

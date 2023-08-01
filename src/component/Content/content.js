@@ -8,7 +8,7 @@ function content() {
     <div>
       <div
         class="edx-vision border text-white"
-        style={{ backgroundColor: "#0063b2", display: "flex", height: "500px" }}
+        style={{ backgroundColor: "#1d79c2", display: "flex", height: "500px" }}
       >
         <div class="content container-mw-lg container-fluid" style={{paddingLeft:"10rem"}}>
           <h2
@@ -23,7 +23,7 @@ function content() {
               lineHeight: "30px",
             }}
           >
-           <span style={{borderBottom:"3px solid #ffdd55"}}> Our</span> vision
+           <span style={{borderBottom:"3px solid #ffdd55"}}> Our</span> Vision
           </h2>
           <p
             class="h1 text-white col-lg-7 p-0 mb-5"
@@ -59,11 +59,11 @@ function content() {
             </a>
           </div>
         </div>
-        <div style={{ marginTop: "-12.4rem", height: "auto" }} >
+        <div style={{ marginTop: "-6.3rem", height: "auto" }} >
           <img
             src="feather 3.svg"
             alt=""
-            style={{ height: "850px", width: " 850px" }}
+            style={{ height: "600px", width: " 600px" }}
           />
         </div>
       </div>
@@ -71,11 +71,13 @@ function content() {
      <br/>
      <br/>
      <br/>
-  
+ 
+     <section style={{height:"350px"}}>
+     <Company style={{backgroundColor:"#fcfcfc"}}  />
+     </section>
      
-      <Company style={{backgroundColor:"#fcfcfc"}}  />
-      <section class="css-dqu6o5-SectionWrapper edss7f20" >
-        <div class="contant" style={{marginTop:'4rem'}}>
+      <section class="css-dqu6o5-SectionWrapper edss7f20" style={{boxShadow:"0px 4px 10px 0px rgba(0,0,0,0.15)",width:"100%",height:"auto",}} >
+        <div class="contant" style={{marginTop:'4rem',marginLeft:"12rem"}}>
           <h4 class="get">Get the learning app</h4>
           <h4 class="join">
             Join our vibrant community and unleash the full potential of our
@@ -90,12 +92,9 @@ function content() {
               <div class="css-1jjf8c-StoreImage-AppStoreImage edss7f27 zoom">
                 <img
                   alt="appStore"
-                  srcset="
-                  https://static.uacdn.net/production/_next/static/images/app_store.png?q=75&amp;auto=format%2Ccompress&amp;w=128 1x,
-                  https://static.uacdn.net/production/_next/static/images/app_store.png?q=75&amp;auto=format%2Ccompress&amp;w=256 2x
-                "
-                  src="https://static.uacdn.net/production/_next/static/images/app_store.png?q=75&amp;auto=format%2Ccompress&amp;w=256"
-                  width="128"
+                
+                src="GOOGLE PLAY LOGO 1.svg"
+                     width="128"
                   height="40"
                   decoding="async"
                   data-nimg="1"
@@ -113,12 +112,9 @@ function content() {
               <div class="css-xkbt8r-StoreImage-PlayStoreImage edss7f28 zoom">
                 <img
                   alt="playStore"
-                  srcset="
-                  https://static.uacdn.net/production/_next/static/images/play_store.png?q=75&amp;auto=format%2Ccompress&amp;w=128 1x,
-                  https://static.uacdn.net/production/_next/static/images/play_store.png?q=75&amp;auto=format%2Ccompress&amp;w=256 2x
-                "
-                  src="https://static.uacdn.net/production/_next/static/images/play_store.png?q=75&amp;auto=format%2Ccompress&amp;w=256"
-                  width="128"
+                
+                src="WINDOWS LOGO 1.svg"
+                    width="128"
                   height="40"
                   decoding="async"
                   data-nimg="1"
@@ -130,7 +126,7 @@ function content() {
             </a>
           </div>
         </div>
-      <img alt="phone" src="get app 1.svg"  style={{ width:"940px",height:"940px",marginLeft:'3rem',paddingBottom:'3rem'}}/>
+      <img alt="phone" src="get app 1.svg"  style={{ width:"940px",height:"940px",marginLeft:'10rem',paddingBottom:'3rem'}}/>
           
     
       </section>

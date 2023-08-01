@@ -2,9 +2,7 @@ import React from "react";
 import "./footer.css";
 
 const Footer = () => {
-  const goToBtn = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  };
+
 
   return (
     <div id="footer">
@@ -319,13 +317,18 @@ const Footer = () => {
                 <i className="fas fa-paperclip mr-2"></i>SUBSCRIBE
               </button>
             </form>
-            <div className="mt-2" onClick={goToBtn}>
-              <img src="icon.svg" alt="icon" style={{ marginLeft: "20rem" }} />
-            </div>
+              <br/>
+            <br/>
+           <input type='text' placeholder='How can I help you today?' name="text" className="center2"  style={{width:"270px",height:"46px",marginTop:"3rem"}}/>&nbsp;&nbsp;&nbsp;
+           <img src="tiny.svg" style={{marginLeft:"18rem"}}/>
+                
           </div>
+
         </div>
-        <div className="text-center py-3">
+        <div className="text-center py-3" style={{marginTop:"-120px"}}>
+        
           <div className="app-download-link mb-2">
+          
             <a
               href="https://play.google.com/store/apps/details?id=com.careerdose.learning"
               className="btn p-0"
@@ -347,9 +350,8 @@ const Footer = () => {
                 alt="windows_app_link"
               />
             </a>
-          </div>
-          <div className="app-download-link"></div>
-          <p className="m-0 small mt-2">
+            <div className="app-download-link"></div>
+          <p className="m-0 small mt-45">
             Copyright © 2020 All Rights Reserved&nbsp;|
             <a
               href="http://careerdose.com/"
@@ -360,6 +362,9 @@ const Footer = () => {
               Career Dose Pvt. Ltd.
             </a>
           </p>
+          </div>
+       
+        
         </div>
       </div>
     </div>

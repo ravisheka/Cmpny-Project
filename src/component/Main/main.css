@@ -2386,7 +2386,7 @@
       position: relative;
       padding: 20px 39px;
       background: #fff;
-      box-shadow: 0 17px 39px rgba(0, 0, 0, .05);
+      box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .05);
       min-height: 172px;
       display: flex;
       flex-direction: column;

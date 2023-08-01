@@ -24,7 +24,7 @@ function Company() {
           <Item className="zoom">
             <img src="Hinduja Tech logo 1.png" />
           </Item>
-          <Item className="zoom" style={{margin:'2rem 0 0 5rem'}}>
+          <Item className="zoom" style={{margin:'6rem 0 0 3rem',width:"300px",height:"63px"}}>
             <img src="northwood.jpg" />
           </Item>
           <Item className="zoom" style={{margin:'2rem 0 0 5rem'}}>
@@ -52,13 +52,13 @@ function Company() {
             color: " #000",
             marginTop: "3rem",
             fontFamily: "Inter",
-            fontSize: " 25px",
+            fontSize: " 36px",
             fontStyle: " normal",
-            fontWeight: "500",
+            fontWeight: "300",
             lineHeight: "normal",
-            borderBottom:"3px solid #e1e1e1",
+            borderBottom:"3px solid rgba(255,48,73,0.3)",
             display:"inline",
-           marginLeft:"40%"
+           marginLeft:"37.5%"
           }}
         >
          Our Partners & Universities
